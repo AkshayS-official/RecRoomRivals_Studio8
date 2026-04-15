@@ -183,6 +183,13 @@ public class GameFlowManager : MonoBehaviour
         }
     }
 
+    public void StartChallengeFromButton()
+    {
+        if (currentState != GameState.Prompted) return;
+        Debug.Log("Starting challenge from button press!");
+        StartCoroutine(StartChallenge());
+    }
+
     void SpawnBallStand(int spawnIndex)
     {
         if (currentStand != null) Destroy(currentStand);
