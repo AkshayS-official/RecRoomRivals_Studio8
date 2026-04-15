@@ -14,7 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0cb9fdae6d74c0f468fed58464f496f9, type: 2}
     - target: {fileID: 5849473246159792786, guid: 9456647ba6a2e1a4bbaf949868ac188f, type: 3}
       propertyPath: m_Name
-      value: Basketball Variant
+      value: BBasketball
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849473246159792786, guid: 9456647ba6a2e1a4bbaf949868ac188f, type: 3}
+      propertyPath: m_TagString
+      value: Basketball
       objectReference: {fileID: 0}
     - target: {fileID: 6513982148627738664, guid: 9456647ba6a2e1a4bbaf949868ac188f, type: 3}
       propertyPath: m_LocalPosition.x

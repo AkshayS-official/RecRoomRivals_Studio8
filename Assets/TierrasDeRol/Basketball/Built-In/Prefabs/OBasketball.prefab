@@ -54,6 +54,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5492abf5214c8a24aa5f51ef03ee57f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
       propertyPath: m_Name
+      value: OBasketball
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 278110af4afb7dc49a9b6efaa9c5209e, type: 3}
+      propertyPath: m_TagString
       value: Basketball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
