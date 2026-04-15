@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test_Scene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/TrainingScene.unity
+    guid: f44c509c818a3d242b95e7c749f564f1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b3801798d499a3f47a209814309a0671, type: 2}
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}

@@ -1,0 +1,56 @@
+{
+    "ShooterBot": {
+        "checkpoints": [
+            {
+                "steps": 499980,
+                "file_path": "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-499980.onnx",
+                "reward": -0.10120000594854354,
+                "creation_time": 1776194741.0335555,
+                "auxillary_file_paths": [
+                    "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-499980.pt"
+                ]
+            },
+            {
+                "steps": 999960,
+                "file_path": "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-999960.onnx",
+                "reward": -0.08918584652442847,
+                "creation_time": 1776194909.4207926,
+                "auxillary_file_paths": [
+                    "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-999960.pt"
+                ]
+            },
+            {
+                "steps": 1499940,
+                "file_path": "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-1499940.onnx",
+                "reward": -0.09189744186494765,
+                "creation_time": 1776195070.3695996,
+                "auxillary_file_paths": [
+                    "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-1499940.pt"
+                ]
+            },
+            {
+                "steps": 1562400,
+                "file_path": "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-1562400.onnx",
+                "reward": null,
+                "creation_time": 1776195096.003659,
+                "auxillary_file_paths": [
+                    "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-1562400.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1562400,
+            "file_path": "results\\ShooterBot_FINAL\\ShooterBot.onnx",
+            "reward": null,
+            "creation_time": 1776195096.003659,
+            "auxillary_file_paths": [
+                "results\\ShooterBot_FINAL\\ShooterBot\\ShooterBot-1562400.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.11.0+cu128"
+    }
+}
