@@ -211,7 +211,7 @@ public class ShooterBotAgent : Agent
         passedThroughHoopPlane    = false;
         prevBallY                 = currentBall.transform.position.y;
 
-        AddReward(-0.002f); // small step penalty — prefer fewer wasted actions
+        // No step penalty — negative baseline kills exploration early in training
 
         float flightTime = Mathf.Clamp(currentDistanceFromHoop / 8f, 1f, 4f);
         Invoke(nameof(AfterThrow), flightTime + 1.5f);
@@ -271,14 +271,9 @@ public class ShooterBotAgent : Agent
 
         if (passedThroughHoopPlane)
         {
-            // Already got accuracy bonus in Update; add small extra for completing arc
-            reward += 0.3f;
+            reward += 0.5f;   // bonus on top of the per-frame accuracy reward
         }
-        else
-        {
-            // Punish flat/wide shots mildly
-            reward -= 0.05f;
-        }
+        // No penalty for miss — zero is fine, negative reward kills early learning
 
         // Angle bonus: reward the ball arriving steeply (good arc)
         if (currentBall != null)

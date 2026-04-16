@@ -10448,7 +10448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa11b59a973820e4b96373392d4192de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThrowVisualizer
-  maxThrowsToRecord: 10000
+  maxThrowsToRecord: 1000
   simulationStep: 0.05
   simulationTime: 4
   missColor: {r: 1, g: 0, b: 0, a: 1}
